@@ -82,7 +82,7 @@ function LoadDefaultModel(malePed, cb)
 
     if IsModelInCdimage(characterModel) and IsModelValid(characterModel) then
       SetPlayerModel(PlayerId(), characterModel)
-      SetPedDefaultComponentVariation(playerPed)
+      SetPedDefaultComponentVariation(PlayerPedId())
     end
 
     SetModelAsNoLongerNeeded(characterModel)
@@ -319,7 +319,7 @@ AddEventHandler('skinchanger:loadSkin', function(skin, cb)
 
     if IsModelInCdimage(characterModel) and IsModelValid(characterModel) then
       SetPlayerModel(PlayerId(), characterModel)
-      SetPedDefaultComponentVariation(playerPed)
+      SetPedDefaultComponentVariation(PlayerPedId())
     end
 
     SetModelAsNoLongerNeeded(characterModel)
@@ -361,7 +361,7 @@ AddEventHandler('skinchanger:loadClothes', function(playerSkin, clothesSkin)
 
     if IsModelInCdimage(characterModel) and IsModelValid(characterModel) then
       SetPlayerModel(PlayerId(), characterModel)
-      SetPedDefaultComponentVariation(playerPed)
+      SetPedDefaultComponentVariation(PlayerPedId())
     end
 
     SetModelAsNoLongerNeeded(characterModel)
