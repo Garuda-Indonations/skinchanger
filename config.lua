@@ -1,7 +1,7 @@
 Config = {}
 Config.Locale = 'en'
 
-pedList={
+pedList = {
 	'u_m_m_jesus_01',
 	'a_c_pig',
 	'a_c_cow',
@@ -337,4 +337,4 @@ pedList={
 	'u_m_y_proldriver_01',
 	'u_m_y_sbike',
 	'u_m_y_tattoo_01'
-	}
+}
